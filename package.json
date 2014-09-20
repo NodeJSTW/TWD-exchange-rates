@@ -1,0 +1,37 @@
+{
+  "name": "TWD-exchange-rates",
+  "version": "0.0.1",
+  "description": "Fetch Taiwanese Dollar (TWD) Foreign Exchange Rate from Bank Of Taiwan (臺灣銀行).",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NodeJSTW/TWD-exchange-rates.git"
+  },
+  "keywords": [
+    "TWD",
+    "Taiwanese Dollar",
+    "exchange rates",
+    "finance"
+  ],
+  "author": "Chieh-Wen Yang",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/NodeJSTW/TWD-exchange-rates/issues"
+  },
+  "homepage": "https://github.com/NodeJSTW/TWD-exchange-rates",
+  "dependencies": {
+    "async": "^0.9.0",
+    "babyparse": "^0.2.1",
+    "cheerio": "^0.17.0",
+    "csv": "^0.4.0",
+    "event-stream": "^3.1.7",
+    "request": "^2.40.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4"
+  }
+}
